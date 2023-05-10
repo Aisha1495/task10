@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Setter
 @Entity
 @Data
-public class payment {
+public class payment extends BaseEntity{
 
     @javax.persistence.Id
     @GeneratedValue(strategy = GenerationType.AUTO)

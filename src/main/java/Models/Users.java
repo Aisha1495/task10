@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Entity
 @Data
 
-public class Users {
+public class Users extends BaseEntity{
 
     @javax.persistence.Id
     @GeneratedValue(strategy = GenerationType.AUTO)
